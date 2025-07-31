@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class num
+{
+    public static void main(String args[])
+    {
+        Scanner bool=new Scanner(System.in);
+        int n1=bool.nextInt();
+        int n2=bool.nextInt();
+        int n3=bool.nextInt();
+        System.out.println("Number 1 is: "+n1);
+        System.out.println("Number 2 is: "+n2);
+        System.out.println("Number 3 is: "+n3);
+        System.out.println("(n1>n2) condition is "+(n1>n2));
+        System.out.println( "(n2 <= n3) condition is "+(n2<=n3));
+        System.out.println("(n1 < n2) || ((n2 == n3) && (n1 < n3)) condition is " +((n1<n2)||(n2==n3)&&(n1<n3)));
+        bool.close();
+    }    
+}
+
